@@ -1,0 +1,13 @@
+// 修改主题色
+$--color-primary: rgb(222, 170, 225); // 可以随便改
+
+// 改变icon字体路径变量，必需
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index"; // 这句话也必写
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fafbfe;
+}
