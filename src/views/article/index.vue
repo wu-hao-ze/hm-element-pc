@@ -89,7 +89,7 @@
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="submit">确认</el-button>
-          <el-button>取消</el-button>
+          <el-button type="primary" @click="handleClose">取消</el-button>
         </el-form-item>
       </el-form>
     </el-drawer>
